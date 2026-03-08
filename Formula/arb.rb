@@ -7,22 +7,22 @@ class Arb < Formula
   on_macos do
     on_arm do
       url "https://github.com/henrikje/arborist/releases/download/v0.104.0/arb-0.104.0-darwin-arm64.tar.gz"
-      sha256 "c142a7a99b1abf5eb2a5a544ddd6b8e51ad56586708efcf767cc668962a8b50c"
+      sha256 "64318b7691060287d4990db2a03b70ddf5db86f6f3bdfa7aa7903e8c8390f008"
     end
     on_intel do
       url "https://github.com/henrikje/arborist/releases/download/v0.104.0/arb-0.104.0-darwin-x64.tar.gz"
-      sha256 "c56fc9a9e90847f5fcd5dfff4f69c9c59f6aeca9f3d1e6c8b586eaf4ab14a70c"
+      sha256 "71a5f496496ac0a0ca252e25b1d48c8a3595b50478947375f97e5103d6a7de55"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/henrikje/arborist/releases/download/v0.104.0/arb-0.104.0-linux-arm64.tar.gz"
-      sha256 "3513e1980d0c7eb954e16b8150263649e2a790e50c815fbd923a0d523d29983e"
+      sha256 "ef88fad5061a5b75e22d615466124e3b118ccee2e629d23040b164e7b5a10c97"
     end
     on_intel do
       url "https://github.com/henrikje/arborist/releases/download/v0.104.0/arb-0.104.0-linux-x64.tar.gz"
-      sha256 "d0e219020416fd02982d77c638239e8fb136312e3aad08253f37011d28f6aedd"
+      sha256 "6e6371c94f4752b17350dd236f0dcead0a3750e2690c8117fd34b2817acfb457"
     end
   end
 
