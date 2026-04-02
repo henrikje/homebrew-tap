@@ -1,28 +1,28 @@
 class Arb < Formula
   desc "Workspace manager for multi-repo projects built on Git worktrees"
   homepage "https://github.com/henrikje/arborist"
-  version "0.115.2"
+  version "0.115.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/henrikje/arborist/releases/download/v0.115.2/arb-0.115.2-darwin-arm64.tar.gz"
-      sha256 "23ae8cfa84f7139eb476ef77fae2665b251f5533dccdbe367d514fa5eeacd779"
+      url "https://github.com/henrikje/arborist/releases/download/v0.115.3/arb-0.115.3-darwin-arm64.tar.gz"
+      sha256 "28d7bb14158dabef0b344d4be7088586823f61fb9eb319e7442e3affe334dfce"
     end
     on_intel do
-      url "https://github.com/henrikje/arborist/releases/download/v0.115.2/arb-0.115.2-darwin-x64.tar.gz"
-      sha256 "554472bc0bfcce59f7f8c435b98cf7c8d916a9afdbebeca4c002527dfdfd8587"
+      url "https://github.com/henrikje/arborist/releases/download/v0.115.3/arb-0.115.3-darwin-x64.tar.gz"
+      sha256 "5454af149b7ebc1edc9d92c39a5453c27ff43c4a3fe7eac8398fd66c731ba602"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/henrikje/arborist/releases/download/v0.115.2/arb-0.115.2-linux-arm64.tar.gz"
-      sha256 "8bac52d01b77924a1b8b369781807f1ce977526c26ad0385b29aceec320b77c1"
+      url "https://github.com/henrikje/arborist/releases/download/v0.115.3/arb-0.115.3-linux-arm64.tar.gz"
+      sha256 "696c7e1b26639c84225950f669aa759f1fee10d635d2e4aa80bb2e97f7b068ce"
     end
     on_intel do
-      url "https://github.com/henrikje/arborist/releases/download/v0.115.2/arb-0.115.2-linux-x64.tar.gz"
-      sha256 "a26d759d634c479a64aa754bd1e5bdfa95c324d9a583915a903b82d4775519eb"
+      url "https://github.com/henrikje/arborist/releases/download/v0.115.3/arb-0.115.3-linux-x64.tar.gz"
+      sha256 "3b636ddcd8f1338c9ad50ff5550e6e4ba04b0a65e28fbb095e568bca79f22229"
     end
   end
 
